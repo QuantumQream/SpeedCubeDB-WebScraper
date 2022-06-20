@@ -34,7 +34,7 @@ def find_cross_type(soup):
 def find_zbll(soup):
     if find_steps(soup)[-1]=='ZBLL':
         return True
-    else: return 
+    else: return False
 
 #Returns the length of the steps list
 def find_num_steps(soup):
